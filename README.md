@@ -1,8 +1,8 @@
 # Androidicons Iconfont
 
 - [About](#about)
-- [How to install](#install)
-- [How to use](#usage)
+- [How to install](#how-to-install)
+- [How to use](#how-to-use)
 
 ## About
 
