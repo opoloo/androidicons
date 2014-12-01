@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Demo</title>
+    <link rel="stylesheet" href="css/androidicons.css" type="text/css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Roboto' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+      body {
+        background: #ddd;
+        color: #333;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        padding: 60px;
+      }
+      pre {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        font-family: 'Source Code Pro';
+      }
+      .icons {
+        list-style: none;
+      }
+      .icons li {
+        color: #ff6600;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>How to use the font with classes</h1>
+
+    Look for any icon and copy the class name (e.g. "ai-twitter").<br />
+    Add it as the class of any HTML container (e.g. "span")
+
+    <pre>&lt;span class="ai-twitter"&gt;&lt;/span&gt;</pre>
+
+    Result: <span class="ai-twitter"></span>
+
+    <br /><br /><hr />
+
+    <h1>How to use the font with Unicodes/HTML-entities</h1>
+
+    Look for any icon and copy the Unicode/HTML-entity (e.g. "ai-twitter").<br />
+    Give the element itself or its parent the font-family "androidicons" and insert the Unicode/HTML-entity
+
+    <pre>&lt;span style="font-family: 'androidicons'"&gt;
+  &amp;#xe8e4; &lt;!-- Unicode --&gt;
+  &amp;#59620; &lt;!-- HTML-Entity --&gt;
+&lt;/span&gt;</pre>
+
+    Result: <span style="font-family: 'androidicons'">&#xe8e4;</span>
+
+    <br /><br /><hr />
+
+    <h1>Examples with styled icons</h1>
+
+    HTML:
+    <pre>&lt;ul class="icons"&gt;
+  &lt;li class="ai-twitter"&gt;Twitter&lt;/li&gt;
+  &lt;li class="ai-facebook"&gt;Facebook&lt;/li&gt;
+  &lt;li class="ai-dropbox"&gt;Dropbox&lt;/li&gt;
+&lt;/ul&gt;</pre>
+
+    CSS:
+    <pre>.icons li {
+  color: #ff6600;
+  font-size: 30px;
+}</pre>
+
+    Result:
+    <ul class="icons">
+      <li class="ai-twitter">Twitter</li>
+      <li class="ai-facebook">Facebook</li>
+      <li class="ai-dropbox">Dropbox</li>
+    </ul>
+    </ul>
+  </body>
+</html>
